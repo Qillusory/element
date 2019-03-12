@@ -171,7 +171,7 @@ export default {
       clearTimeout(this._timer);
       this._timer = setTimeout(() => {
         this.showPopper = false;
-      }, 200);
+      }, 1000);
     },
     handleDocumentClick(e) {
       let reference = this.reference || this.$refs.reference;
